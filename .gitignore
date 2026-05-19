@@ -6,3 +6,16 @@ diff_rasterization/diff_rast.egg-info
 diff_rasterization/dist
 tensorboard_3d
 screenshots
+
+# Local-only directories (datasets, photos, third-party tools, prebuilt wheels)
+data/
+tools/
+wheels/
+
+# Build artifacts and caches
+__pycache__/
+*.egg-info/
+*.whl
+*.zip
+*.HEIC
+*.heic
